@@ -24,15 +24,17 @@ const useStyles = makeStyles({
       alignItems: 'center',
       alignSelf: 'center'
     },
-    background: {
+    smallAvatar: {
+        margin: 10,
+        width: 200,
+        height: 200
     },
   });
 
-// should be using typography
 const Home: React.FC = () => {
     const classes = useStyles();
     return (
-        <div className={classes.background}>
+        <div>
             <Container>
                 <Grid container justify = "center">
                     <Avatar alt="profile_pic" src={require('./Assets/Images/me2.jpg')} className={classes.bigAvatar} />
@@ -44,23 +46,6 @@ const Home: React.FC = () => {
                     Software Engineer
                 </Typography>
                 <ArrowDownwardIcon />
-            </Container>
-
-            <Container>
-                <Typography variant='h3'>
-                    Projects
-                </Typography>
-                <Typography variant='h4'>
-
-                </Typography>
-            <List component="nav" aria-label="main mailbox folders">
-        <ListItem button>
-        <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={require('./Assets/Images/mechanical_squirrel.jpg')} />
-        </ListItemAvatar>
-          <ListItemText primary="Mechanical Squirrel" secondary='A Discord bot for World of Warcraft: Classic memes (15k+ Users | 500+ Discord Servers)' />
-        </ListItem>
-        </List>
             </Container>
 
         </div>
