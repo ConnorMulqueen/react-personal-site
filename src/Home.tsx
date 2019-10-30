@@ -56,7 +56,7 @@ const Home: React.FC = () => {
             <List component="nav" aria-label="main mailbox folders">
         <ListItem button>
         <ListItemAvatar>
-          <Avatar alt="Remy Sharp" src={require('./Assets/Images/me2.jpg')} />
+          <Avatar alt="Remy Sharp" src={require('./Assets/Images/mechanical_squirrel.jpg')} />
         </ListItemAvatar>
           <ListItemText primary="Mechanical Squirrel" secondary='A Discord bot for World of Warcraft: Classic memes (15k+ Users | 500+ Discord Servers)' />
         </ListItem>
