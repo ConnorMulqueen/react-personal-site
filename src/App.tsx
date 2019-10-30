@@ -10,6 +10,8 @@ import Icon from '@material-ui/core/Icon';
 import WhatshotIcon from '@material-ui/icons/Whatshot';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import DescriptionIcon from '@material-ui/icons/Description';
+import MessageIcon from '@material-ui/icons/Message';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FreeBreakfastIcon from '@material-ui/icons/FreeBreakfast';
 import WorkIcon from '@material-ui/icons/Work';
 import Container from '@material-ui/core/Container';
@@ -32,7 +34,9 @@ const App: React.FC = () => {
           </Typography>
           <Button color="inherit"><DescriptionIcon></DescriptionIcon> Resume</Button>
           <Button color="inherit"><GitHubIcon></GitHubIcon> GitHub</Button>
-          <Button color="inherit" aria-controls='simple-menu'><WorkIcon></WorkIcon>Personal Projects</Button>
+          <Button color="inherit"><GitHubIcon></GitHubIcon> Blog</Button>
+          <Button color="inherit"><WorkIcon></WorkIcon>Personal Projects</Button>
+          <Button color="inherit"><LinkedInIcon></LinkedInIcon> LinkedIn</Button>
           <Button color="inherit"><WhatshotIcon></WhatshotIcon> Strava</Button>
 
           <header>
