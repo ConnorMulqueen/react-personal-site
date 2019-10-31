@@ -1,26 +1,29 @@
 {
   "files": {
     "main.css": "/react-personal-site/static/css/main.fa81905b.chunk.css",
-    "main.js": "/react-personal-site/static/js/main.f1c659ba.chunk.js",
-    "main.js.map": "/react-personal-site/static/js/main.f1c659ba.chunk.js.map",
+    "main.js": "/react-personal-site/static/js/main.c2c4089b.chunk.js",
+    "main.js.map": "/react-personal-site/static/js/main.c2c4089b.chunk.js.map",
     "runtime-main.js": "/react-personal-site/static/js/runtime-main.61daa38e.js",
     "runtime-main.js.map": "/react-personal-site/static/js/runtime-main.61daa38e.js.map",
     "static/css/2.71891966.chunk.css": "/react-personal-site/static/css/2.71891966.chunk.css",
-    "static/js/2.ad679d4d.chunk.js": "/react-personal-site/static/js/2.ad679d4d.chunk.js",
-    "static/js/2.ad679d4d.chunk.js.map": "/react-personal-site/static/js/2.ad679d4d.chunk.js.map",
+    "static/js/2.529cf2d8.chunk.js": "/react-personal-site/static/js/2.529cf2d8.chunk.js",
+    "static/js/2.529cf2d8.chunk.js.map": "/react-personal-site/static/js/2.529cf2d8.chunk.js.map",
     "index.html": "/react-personal-site/index.html",
-    "precache-manifest.ed8a647ab2ebd3a66e01f6e544fdc7d4.js": "/react-personal-site/precache-manifest.ed8a647ab2ebd3a66e01f6e544fdc7d4.js",
+    "precache-manifest.b1907e7a4ce1e7952b5376f6f03557bb.js": "/react-personal-site/precache-manifest.b1907e7a4ce1e7952b5376f6f03557bb.js",
     "service-worker.js": "/react-personal-site/service-worker.js",
     "static/css/2.71891966.chunk.css.map": "/react-personal-site/static/css/2.71891966.chunk.css.map",
     "static/css/main.fa81905b.chunk.css.map": "/react-personal-site/static/css/main.fa81905b.chunk.css.map",
+    "static/media/fireballer.png": "/react-personal-site/static/media/fireballer.cdfcab96.png",
     "static/media/me2.jpg": "/react-personal-site/static/media/me2.4011b7fe.jpg",
-    "static/media/index.css": "/react-personal-site/static/media/roboto-latin-900italic.ebf6d164.woff2"
+    "static/media/mechanical_squirrel.jpg": "/react-personal-site/static/media/mechanical_squirrel.f528c342.jpg",
+    "static/media/index.css": "/react-personal-site/static/media/roboto-latin-900italic.ebf6d164.woff2",
+    "static/media/shroomscape.png": "/react-personal-site/static/media/shroomscape.25c7b51a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.61daa38e.js",
     "static/css/2.71891966.chunk.css",
-    "static/js/2.ad679d4d.chunk.js",
+    "static/js/2.529cf2d8.chunk.js",
     "static/css/main.fa81905b.chunk.css",
-    "static/js/main.f1c659ba.chunk.js"
+    "static/js/main.c2c4089b.chunk.js"
   ]
 }
