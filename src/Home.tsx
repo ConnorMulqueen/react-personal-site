@@ -3,21 +3,19 @@ import Container from '@material-ui/core/Container';
 
 import Typography from '@material-ui/core/Typography';
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
 import Avatar from '@material-ui/core/Avatar';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 
 const useStyles = makeStyles({
+    backgroundDiv: {
+        paddingBottom: 100,
+    },
     bigAvatar: {
-      margin: 10,
+      margin: 50,
       width: 400,
       height: 400,
       justifyContent: 'center',
@@ -29,12 +27,17 @@ const useStyles = makeStyles({
         width: 200,
         height: 200
     },
+    bottomArrow: {
+        position: 'relative', //Here is the trick
+        bottom: 0, //Here is the trick
+    }
   });
 
 const Home: React.FC = () => {
     const classes = useStyles();
+
     return (
-        <div>
+        <div className={classes.backgroundDiv}>
             <Container>
                 <Grid container justify = "center">
                     <Avatar alt="profile_pic" src={require('./Assets/Images/me2.jpg')} className={classes.bigAvatar} />
@@ -45,7 +48,9 @@ const Home: React.FC = () => {
                 <Typography variant="h4">
                     Software Engineer
                 </Typography>
-                <ArrowDownwardIcon />
+
+                <br />
+                <FontAwesomeIcon icon={faArrowDown} className={classes.bottomArrow} size='2x'/>
             </Container>
 
         </div>
